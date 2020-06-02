@@ -1,0 +1,118 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-y: hidden;
+}
+
+.detail {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+.detail .content .card .status-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.detail .content .card .status-title .date {
+  font-size: 20px;
+}
+
+.detail .content .card .status-title .status {
+  color: #99D815;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.detail .content .card .category-badge {
+  width: 95px;
+  height: 30px;
+  background: #FBCC38;
+  border-radius: 15px;
+  color: white;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.detail .content .card .status-title h1 {
+  font-size: 50px;
+  line-height: 65px;
+}
+
+.detail .content {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+
+.detail .content .card {  
+  justify-self: center;
+  display: flex;
+  background-color: #fff;
+  width: 80%;
+  justify-content: space-between;
+  padding: 60px;
+  border-radius: 50px;
+  margin-top: -300px;
+  box-shadow: 0px 0px 5px lightgray;
+}
+
+.detail .content .card .description {
+  width: 70%;
+}
+
+.detail .content .card .cover-button .cover {
+  margin-top: -200px;
+  margin-bottom: 100px;
+}
+
+.detail .content .card .cover-button .cta-borrow {
+  display: block;
+  background: #FBCC38;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  width: 240px;
+  height: 74px;
+  font-size: 30px;
+  font-weight: bold;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.detail .content .card .cover-button .cta-borrow:hover {
+  background: rgb(216, 177, 48);
+  transition: 0.2s;
+}
+
+.icon-arrow {
+  background-color: #fff;
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 20px;
+  top: 20px;
+}
+
+.icon-arrow:hover {
+  transform: 0.2s;
+  opacity: 0.8;
+  cursor: pointer;
+}
